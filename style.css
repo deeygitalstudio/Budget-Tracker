@@ -1,0 +1,101 @@
+body{
+    height: 100vh;
+    width: 100%;
+
+   
+}
+
+input::placeholder{
+  font-size: 12px;
+    color: #807f7f;
+}
+
+p {
+  font-size: 12px;
+  color: #807f7f;
+}
+
+tr td{
+  font-size: 12px;
+     color: #807f7f;
+}
+
+.bal{
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.bals{
+  font-size: 40px;
+  font-weight: 600;
+
+}
+
+.buy{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.buy input{
+  width: 100%;
+}
+
+
+.ihp{
+  display: flex;
+}
+.tabs1{
+  
+  
+}
+
+.buy .btns button{
+ width: 50%;
+
+
+}
+.card{
+  max-width: 400px;
+  margin: 100px auto 20px;
+ 
+}
+
+.now{
+  color: blue;
+}
+
+@media screen and (max-width: 600px){
+  .buy input{
+  width: 90%;
+}
+
+.buy .btns{
+    display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+
+
+}
+
+.buy{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+
+}
+
+.h1{
+  font-size: 20px;
+  text-align: center;
+}
+
+}
