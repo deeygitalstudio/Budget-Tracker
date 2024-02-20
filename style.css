@@ -22,7 +22,7 @@ tr td{
 
 .bal{
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
 
 }
 .bals{
@@ -93,9 +93,13 @@ tr td{
 
 }
 
-.h1{
+.bals{
   font-size: 20px;
   text-align: center;
+}
+.bal{
+  font-size: 20px;
+
 }
 
 }
